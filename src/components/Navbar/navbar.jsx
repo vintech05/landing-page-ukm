@@ -1,35 +1,31 @@
 import '/src/index.css'
+import { useState } from 'react';
 import { GiHamburger } from "react-icons/gi";
 import { IconContext } from "react-icons";
 
 const navbar = () => {
+
+    const [open, setOpen] = useState(false);
+
     return (
         <header className="pb-6 bg-[#18181C] lg:pb-0">
     <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         {/* <!-- lg+ --> */}
         <nav className="flex items-center justify-between px-4 h-16 lg:h-20 bg-[#18181C]">
-            <div className="flex-shrink-0">
+            <div className="flex-shrink-0 md:pt-4 sm:pt-0">
                 <a href="#" title="" className="flex">
                     <IconContext.Provider value={{ className: "text-yellow-300 text-5xl cursor-pointer" }}>
                         <div className='text-white flex gap-4 items-center'>
                         <GiHamburger />
-                            <p className='font-Inter font-semibold uppercase'>Burgerloyal</p>
+                            <p className='font-Inter font-semibold uppercase xs:hidden'>Burgerloyal</p>
                         </div>
                     </IconContext.Provider>
                 </a>
             </div>
 
-            <button type="button" className="inline-flex p-2 text-white transition-all duration-200 rounded-md lg:hidden">
-                {/* <!-- Menu open: "hidden", Menu closed: "block" --> */}
-                <svg className="block w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 8h16M4 16h16" />
-                </svg>
-
-                {/* <!-- Menu open: "block", Menu closed: "hidden" --> */}
-                <svg className="hidden w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12" />
-                </svg>
-            </button>
+            <div onClick={()=>setOpen(!open)}  type="button" className="inline-flex md:pt-4 sm:pt-0 text-3xl md:pl-[14em] text-white transition-all duration-200 cursor-pointer rounded-md lg:hidden">
+                <ion-icon name={open? 'close-outline' : 'menu-outline'}></ion-icon>
+            </div>
 
             <div className="hidden lg:flex lg:items-center lg:ml-auto lg:space-x-10 text-white capitalize">
                 <a href="#" title="" className="font-Inter font-light text-base transition-all duration-200 hover:text-yellow-300 focus:text-yellow-300"> tentang </a>
@@ -51,7 +47,7 @@ const navbar = () => {
         </nav>
 
         {/* <!-- xs to lg --> */}
-        <nav className="pt-4 pb-6 rounded-md shadow-md lg:hidden">
+        <nav className={`pt-4 pb-6 mt-4 rounded-md shadow-md lg:hidden ${open?'block':'hidden'}`}>
             <div className="flow-root">
                 <div className="flex flex-col px-6 -my-2 space-y-1 text-white">
                     <a href="#" title="" className="inline-flex py-2 text-base border-b border-[#212121] font-medium transition-all duration-200 hover:text-yellow-300 focus:text-yellow-300"> Features </a>
