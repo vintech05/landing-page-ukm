@@ -12,7 +12,7 @@ const navbar = () => {
     <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         {/* <!-- lg+ --> */}
         <nav className="flex items-center justify-between px-4 h-16 lg:h-20 bg-[#18181C]">
-            <div className="flex-shrink-0 md:pt-4 sm:pt-0">
+            <div className="flex-shrink-0 lg:pt-0 md:pt-4 sm:pt-0">
                 <a href="#" title="" className="flex">
                     <IconContext.Provider value={{ className: "text-yellow-300 text-5xl cursor-pointer" }}>
                         <div className='text-white flex gap-4 items-center'>
