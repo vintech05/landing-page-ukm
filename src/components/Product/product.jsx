@@ -49,7 +49,7 @@ const product = () => {
                 </p>
                 <div className='flex items-center gap-2'>
                     <a href="#" title="" className="text-black font-bold font-Inter"> Rp40.456 </a>
-                    <a href="#" title="" className="text-gray-400 text-[12px] line-through"> Rp50.456 </a>
+                    <a href="#" title="" className="text-gray-400 text-[11px] line-through pb-1"> Rp50.456 </a>
                 </div>
                 <p className="mt-4 text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
             </div>
