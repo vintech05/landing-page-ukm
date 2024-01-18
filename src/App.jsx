@@ -1,6 +1,6 @@
 import './index.css'
 
-import { Navbar, Hero, About, Product, Testimonials, Footer } from './components';
+import { Navbar, Hero, About, Product, Service, Testimonials, Footer } from './components';
 
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
       <Navbar/>
         <Hero/>
         <About/>
+        <Service/>
         <Product/>
         <Testimonials/>
         <Footer/>
