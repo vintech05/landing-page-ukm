@@ -1,5 +1,5 @@
 export { default as Navbar } from './Navbar/navbar';
-export { default as Hero } from './Hero/hero';
+export { default as Hero } from './Hero/Hero';
 export { default as About } from './About/about';
 export { default as Service } from './OurService/service';
 export { default as Footer } from './Footer/footer';
