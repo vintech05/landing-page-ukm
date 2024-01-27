@@ -10,7 +10,7 @@ const product = () => {
         </div>
 
         <div className="grid max-w-md grid-cols-1 mx-auto mt-12 lg:max-w-full lg:mt-16 lg:grid-cols-3 gap-x-16 gap-y-12">
-            <div>
+            <div className='hover:bg-gray-200 transition-all p-2 rounded-lg'>
                 <div className='relative'>
                     <a href="#" title="" className="block aspect-w-4 aspect-h-3"/>
                         <img className="object-cover w-full h-full rounded-md" src="/src/assets/menu-1.jpg" alt="" />
@@ -27,7 +27,7 @@ const product = () => {
                 <p className="mt-4 text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
             </div>
 
-            <div>
+            <div className='hover:bg-gray-200 transition-all p-2 rounded-lg'>
                 <a href="#" title="" className="block aspect-w-4 aspect-h-3">
                     <img className="object-cover w-full h-full rounded-md" src="/src/assets/menu-2.jpg" alt="" />
                 </a>
@@ -39,7 +39,7 @@ const product = () => {
                 <p className="mt-4 text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
             </div>
 
-            <div>
+            <div className='hover:bg-gray-200 transition-all p-2 rounded-lg'>
                 <a href="#" title="" className="block aspect-w-4 aspect-h-3">
                     <img className="object-cover w-full h-full rounded-md" src="/src/assets/menu-3.jpg" alt="" />
                 </a>

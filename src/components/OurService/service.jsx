@@ -22,7 +22,7 @@ const service = () => {
                         <div className='text-sm text-gray-600 text-center mt-6'>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ipsum beatae omnis?
                         </div>
-                        <button className='mt-6 bg-yellow-400 hover:underline font-light cursor-pointer py-2 px-6 rounded-full font-Inter'>
+                        <button className='mt-6 bg-yellow-400 hover:bg-yellow-500 font-light cursor-pointer py-2 px-6 rounded-md font-Inter'>
                             Selengkapnya
                         </button>
                     </div>
@@ -36,7 +36,7 @@ const service = () => {
                         <div className='text-sm text-gray-600 text-center mt-6'>
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ipsum beatae omnis?
                         </div>
-                        <button className='mt-6 bg-yellow-400 hover:underline font-light cursor-pointer py-2 px-6 rounded-full font-Inter'>
+                        <button className='mt-6 bg-yellow-400 hover:bg-yellow-500 font-light cursor-pointer py-2 px-6 rounded-md font-Inter'>
                             Selengkapnya
                         </button>
                     </div>
@@ -53,7 +53,7 @@ const service = () => {
                         <div>
 
                         </div>
-                        <button className='mt-6 bg-yellow-400 hover:underline font-light cursor-pointer py-2 px-6 rounded-full font-Inter'>
+                        <button className='mt-6 bg-yellow-400 hover:bg-yellow-500 font-light cursor-pointer py-2 px-6 rounded-md font-Inter'>
                             Selengkapnya
                         </button>
                     </div>
