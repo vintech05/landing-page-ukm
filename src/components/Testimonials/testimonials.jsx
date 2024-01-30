@@ -56,17 +56,17 @@ const testimonials = () => {
                 }
             </div>
 
-            <div className="flex items-center mt-12 md:justify-center space-x-4">
-                <div className="flex items-center justify-center w-24 h-24 rounded-full focus:ring-2 focus:ring-fuchsia-600">
-                    <img className="object-cover w-20 h-20 rounded-full cursor-pointer" onClick={()=>showToggle(1)} src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/9/avatar-1.jpg" alt="" />
+            <div className="flex items-center mt-12 md:justify-center">
+                <div className="flex items-center justify-center w-24 h-24">
+                    <img className="object-cover w-16 h-16 rounded-full cursor-pointer" onClick={()=>showToggle(1)} src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/9/avatar-1.jpg" alt="" />
                 </div>
 
-                <div className="flex items-center justify-center w-24 h-24 rounded-full focus:ring-2 focus:ring-fuchsia-600">
-                    <img className="object-cover w-20 h-20 rounded-full cursor-pointer" onClick={()=>showToggle(2)} src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/9/avatar-2.jpg" alt="" />
+                <div className="flex items-center justify-center w-24 h-24">
+                    <img className="object-cover w-16 h-16 rounded-full cursor-pointer" onClick={()=>showToggle(2)} src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/9/avatar-2.jpg" alt="" />
                 </div>
 
-                <div className="flex items-center justify-center w-24 h-24 rounded-full focus:ring-2 focus:ring-fuchsia-600s">
-                    <img className="object-cover w-20 h-20 rounded-full cursor-pointer" onClick={()=>showToggle(3)} src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/9/avatar-3.jpg" alt="" />
+                <div className="flex items-center justify-center w-24 h-24">
+                    <img className="object-cover w-16 h-16 rounded-full cursor-pointer" onClick={()=>showToggle(3)} src="https://cdn.rareblocks.xyz/collection/celebration/images/testimonials/9/avatar-3.jpg" alt="" />
                 </div>
             </div>
         </div>
