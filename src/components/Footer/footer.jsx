@@ -107,7 +107,7 @@ const footer = () => {
 
         <p className="text-xs md:text-sm text-[#B5B6B8]">© Copyright 2024, All Rights Reserved by Burgerloyal</p>
     </div>
-    <div className='bg-yellow-400 py-2 px-3 text-2xl rounded-md shrink-0 fixed md:absolute bottom-4 right-8 scroll-smooth'>
+    <div className='bg-yellow-400 py-2 px-3 text-2xl rounded-md shrink-0 fixed md:absolute bottom-7 right-5 scroll-smooth'>
         <a href="#"><ion-icon name="arrow-up-outline"></ion-icon></a>
     </div>
 </section>
