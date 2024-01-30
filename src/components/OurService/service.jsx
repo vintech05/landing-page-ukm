@@ -2,7 +2,7 @@ import '/src/index.css'
 
 const service = () => {
   return (
-    <div className="flex justify-center items-center min-h-[100vh] font-Inter py-14">
+    <div className="flex justify-center items-center min-h-[100vh] font-Inter py-36">
         <div className='grid grid-cols-1'>
             <div className="text-3xl font-bold leading-tight text-center text-black sm:text-4xl lg:text-5xl">
                 <h1>Kenapa Harus Pilih Kami</h1>
